@@ -8,11 +8,4 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Domain\DTOs\" />
-    <Folder Include="Domain\Enums\" />
-    <Folder Include="Domain\Services\" />
-    <Folder Include="Domain\Interfaces\Services\" />
-  </ItemGroup>
-
 </Project>
