@@ -1,4 +1,4 @@
 # Em desenvolvimento!!
-Conhecendo estrutura em camadas DDD
+Estudando estrutura em camadas DDD
 
 
