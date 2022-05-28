@@ -34,11 +34,7 @@ namespace RestApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            string path = AppDomain.CurrentDomain.BaseDirectory + @"dalsoto-firebase-adminsdk-4ifmz-9c8bd6423f.json";
-            Environment.SetEnvironmentVariable("GOOGLE_APPLICATION_CREDENTIALS", path);
-
-            FirestoreDb db = FirestoreDb.Create("dalsoto");
-
+           
             services.AddDbContext<AplicationContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"), 
